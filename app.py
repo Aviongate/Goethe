@@ -33,7 +33,7 @@ with st.sidebar:
         min_value=0,
         max_value=60,
         value=10,
-        step=5,
+        step=1,
     )
 
     open_browser = st.checkbox(
