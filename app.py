@@ -30,7 +30,7 @@ with st.sidebar:
     st.header("Settings")
     check_interval = st.slider(
         "Check interval (seconds)",
-        min_value=1,
+        min_value=-1,
         max_value=60,
         value=10,
         step=5,
