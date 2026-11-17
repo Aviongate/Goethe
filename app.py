@@ -6,7 +6,7 @@ from datetime import datetime
 import requests
 import streamlit as st
 
-GOETHE_URL = "https://www.goethe.de/ins/pk/en/spr/prf/gzsd1.cfm"
+GOETHE_URL = "https://www.goethe.de/ins/pk/de/spr/prf/gzsd1.cfm"
 
 st.set_page_config(
     page_title="Goethe Registration Assistant",
